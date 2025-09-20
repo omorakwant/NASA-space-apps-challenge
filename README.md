@@ -2,10 +2,12 @@
 
 ## A Web-Based Modular Space Habitat Design Tool for NASA Space Apps Challenge 2025
 
-🌟 Overview
+# 🌟 Overview
+
 Space Habitat Builder is an innovative web-based tool that enables users to design modular space habitats through an intuitive 3D interface. Built for the NASA Space Apps Challenge 2025, this application addresses the "Space Habitat Design Challenge" by creating a visual tool for defining habitat shapes, exploring layout options, and validating engineering constraints in real-time.
 
-✨ Key Features
+# ✨ Key Features
+
 🎯 Intuitive Design Interface
 Drag-and-drop module placement in 3D space with snap-to-grid functionality
 
