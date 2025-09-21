@@ -278,7 +278,7 @@ export const validateHabitat = (modules, connections) => {
   };
 };
 
-export default {
+const connectionValidatorExport = {
   distance3D,
   dotProduct,
   normalize,
@@ -291,3 +291,5 @@ export default {
   findPotentialConnections,
   validateHabitat
 };
+
+export default connectionValidatorExport;

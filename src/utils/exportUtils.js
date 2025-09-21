@@ -199,7 +199,6 @@ export const exportOBJ = (habitatData, filename = 'habitat-model') => {
     
     const { width, height, depth } = definition.dimensions;
     const [x, y, z] = module.position;
-    const [rx, ry, rz] = module.rotation;
     
     // Generate box vertices (8 vertices per module)
     const vertices = [
@@ -216,8 +215,8 @@ export const exportOBJ = (habitatData, filename = 'habitat-model') => {
     // Apply transformations and output vertices
     vertices.forEach(vertex => {
       // Apply rotation (simplified - Y rotation only)
-      const cos = Math.cos(ry);
-      const sin = Math.sin(ry);
+      const cos = Math.cos(module.rotation[1]);
+      const sin = Math.sin(module.rotation[1]);
       const rotatedX = vertex[0] * cos - vertex[2] * sin;
       const rotatedZ = vertex[0] * sin + vertex[2] * cos;
       
@@ -383,9 +382,11 @@ export const generateTechnicalReport = (habitatData) => {
   return report;
 };
 
-export default {
+const exportUtilsExport = {
   exportJSON,
   exportMarkdown,
   exportOBJ,
   generateTechnicalReport
 };
+
+export default exportUtilsExport;

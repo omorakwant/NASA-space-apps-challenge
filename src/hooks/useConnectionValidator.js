@@ -20,8 +20,7 @@ export const useConnectionValidator = () => {
     validationErrors,
     setValidationErrors,
     clearValidationErrors,
-    addConnection,
-    removeConnection
+    addConnection
   } = useHabitat();
 
   /**

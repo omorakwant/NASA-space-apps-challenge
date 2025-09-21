@@ -42,9 +42,11 @@ export const powerRequirements = {
   REACTOR_OUTPUT: 5000 // watts per reactor
 };
 
-export default {
+const connectionTypesExport = {
   connectionTypes,
   connectionRules,
   connectionConstraints,
   powerRequirements
 };
+
+export default connectionTypesExport;

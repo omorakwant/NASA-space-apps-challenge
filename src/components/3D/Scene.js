@@ -119,7 +119,7 @@ const SceneContent = () => {
   return (
     <>
       {/* Environment and Atmosphere */}
-      <Environment preset="night" />
+      {/* <Environment preset="night" /> */}
       <Stars 
         radius={300} 
         depth={50} 
