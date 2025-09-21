@@ -1,93 +1,70 @@
-# NASA-space-apps-challenge
+# Getting Started with Create React App
 
-## A Web-Based Modular Space Habitat Design Tool for NASA Space Apps Challenge 2025
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# 🌟 Overview
+## Available Scripts
 
-Space Habitat Builder is an innovative web-based tool that enables users to design modular space habitats through an intuitive 3D interface. Built for the NASA Space Apps Challenge 2025, this application addresses the "Space Habitat Design Challenge" by creating a visual tool for defining habitat shapes, exploring layout options, and validating engineering constraints in real-time.
+In the project directory, you can run:
 
-# ✨ Key Features
+### `npm start`
 
-### 🎯 Intuitive Design Interface
-Drag-and-drop module placement in 3D space with snap-to-grid functionality
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Real-time 3D visualization using WebGL with orbital camera controls
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Smart connection validation with physics-based attachment system
+### `npm test`
 
-Professional dark space theme with smooth animations and transitions
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 🔧 Engineering Validation
-Automatic connection checking for structural, power, and life support systems
+### `npm run build`
 
-Real-time constraint validation based on NASA technical standards
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Power balance monitoring with generation vs consumption analysis
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-System integration verification ensuring habitat functionality
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 📋 Comprehensive Module Library
-6 different module types: Central Hub, Living Quarters, Research Lab, EVA Airlock, Storage, Recreation
+### `npm run eject`
 
-Detailed specifications: Mass, dimensions, crew capacity, power requirements
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Realistic constraints based on actual space habitat research and ISS module data
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### 📊 Technical Export Capabilities
-JSON design files for sharing and collaboration
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Technical specifications in markdown format with assembly sequences
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-3D model export (OBJ format) for CAD integration and 3D printing
+## Learn More
 
-Habitat performance reports with mass calculations and system analysis
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### 🚀 Live Demo & Quick Start
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-### How to Use:
-Browse Module Library - Left panel shows available habitat modules with specifications
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Add Modules - Click the + button to place modules in the 3D scene
+### Analyzing the Bundle Size
 
-Position & Connect - Drag modules to desired locations and validate connections
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Monitor Systems - Bottom status bar shows real-time habitat performance
+### Making a Progressive Web App
 
-Export Design - Generate technical specifications and 3D models
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### 🛠️ Technical Stack
-Frontend Technologies
-React 18 - Modern component-based UI framework
+### Advanced Configuration
 
-Three.js + React Three Fiber - High-performance 3D rendering and WebGL
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Material-UI (MUI) - Professional component library and design system
+### Deployment
 
-React Three Drei - Useful helpers for 3D scene composition
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Core Features Implementation
-Custom Physics Engine - Connection validation and collision detection
+### `npm run build` fails to minify
 
-State Management - React Context API for application state
-
-Real-time Validation - Constraint solver for engineering requirements
-
-File Export System - Multiple format generation (JSON, MD, OBJ)
-
-Development Tools
-Node.js - JavaScript runtime environment
-
-Create React App - Build toolchain and development server
-
-ESLint & Prettier - Code quality and formatting
-
-Vercel - Deployment and hosting platform
-
-### 🏗️ Installation & Development
-Prerequisites
-Node.js (v16 or higher)
-
-npm or yarn package manager
-
-Modern web browser with WebGL support
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
